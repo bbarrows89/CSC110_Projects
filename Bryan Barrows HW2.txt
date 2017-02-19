@@ -1,0 +1,75 @@
+Bryan Barrows
+HW2 - CSC 110 (Winter 17)
+
+1a)
+
+a. Retrieve peanut butter, jelly, and bread from pantry.
+b. Open bag of bread, remove two slices, reseal bag, and return to pantry.
+c. Open peanut butter and jelly, and find a clean knife.
+d. Use knife to spread peanut butter onto one slice of bread, being sure to wipe knife on bread to remove as much peanut butter as possible.
+e. Use knife to spread jelly onto other piece of bread.
+f. Place knife in dishwasher.
+g. Reseal peanut butter and jelly, return to pantry.
+h. Put two pieces of bread together, spread side IN. 
+i. Enjoy your sandwich!
+
+
+
+1b)
+
+a. Use right ‘hand’ to grab handle of middle cupboard.
+b. Pull handle to open cupboard.
+c. Locate the following ingredients inside: ingredients = [Peanut Butter, Jelly, Bread]
+d. Remove ingredients
+e. Use left hand to hold peanut butter jar. Use right hand to twist the lid in a counter-clockwise motion until lid is removed. 
+f. Repeat step e on jar of Jelly.
+g. IF bread is sliced, remove two slices from bag. (IF bread is NOT sliced, remove loaf and locate knife.)
+h. Once all ingredients open, and knife located, use right hand to dip knife into jar of Jelly.
+i. Use knife to move and spread jelly onto the bread.
+j. Repeat process with peanut butter and other slice of bread.
+k. Inverse of steps e + f, put lids back on.
+l. Inverse of step a, put closed ingredients back into pantry, close middle cupboard.
+m. Put two pieces of bread together (ingredient side facing in).
+n. Hold “sandwich” and place in mouth. Chew, swallow.
+o. Repeat step n until no more sandwich left.
+
+
+
+2a)
+
+i) 
+
+ints = list(range(5))
+
+ii)
+
+odds = list(range(1,10,2))
+
+iii)
+
+tens = list(range(10,51,10))
+
+(#I tested each list using a loop…  
+
+for i in (variable):
+print(i)
+
+#this allowed me to verify the accuracy of my range selections.)
+
+
+2b)
+
+>>> def convert(miles):
+	for i in range(len(miles)):
+		miles[i] = miles[i] * 1.609344
+	print(miles)
+
+
+Using ints: 0.0, 1.609344, 3.218688, 4.828032, 6.437376
+
+Using odds:  1.609344, 4.828032, 8.04672, 11.265408, 14.484096000000001
+
+Using tens: 16.09344, 32.18688, 48.28032, 64.37376, 80.4672
+
+
+
