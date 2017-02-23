@@ -2,6 +2,7 @@
 # CSC 110 - Winter '17
 # BMI Calculator
 # Week 8 Practice Exercise - B
+# bmi.py
 
 # Building on the chapter material covering Decision Structures, we were asked
 # to build a Python program that asks user for height & weight, then calculates
@@ -36,6 +37,10 @@ def main():
 
     except ZeroDivisionError:
         print("Height must be greater than zero.")
+
+    except NameError:
+        print("Please use numerical values.")
+        
     
 
 main()
