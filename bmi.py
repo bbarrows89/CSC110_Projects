@@ -2,7 +2,7 @@
 # CSC 110 - Winter '17
 # BMI Calculator
 # Week 8 Practice Exercise - B
-# bmi_calc.py
+# bmi.py
 
 # Building on the chapter material covering Decision Structures, we were asked
 # to build a Python program that asks user for height & weight, then calculates
